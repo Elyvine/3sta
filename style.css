@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-/* */
+/* Styling Scrollbars */
 ::-webkit-scrollbar{
     width: 5px;
     height: 6px;
@@ -104,7 +104,8 @@ body{
     font-size: 16px;
     border-radius: 50px;
     background: #ffffff;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff; 
+    box-shadow: 2px 2px 5px #d9d9d9,
+                -2px -2px 5px #ffffff; 
 }
 main{
     background:#f3f4f6 ;
@@ -181,7 +182,7 @@ main{
     color: #2e4a66;
     margin-bottom: 5px;
 }
-.charts__left__title > div > p {
+.charts__left__title > div > p {  
     font-size: 14px;
     font-weight: 700;
     color:  #a5aaad;
@@ -191,9 +192,9 @@ main{
     color: #ffffff;
     font-size: 20px;
     background: #ffc100;
-    border-radius: 200px 0 200px 200px;
-    -moz-border-radius: 200p 0 200px 200px;
-    -webkit-border-radius: 200px 0 200px 200px;
+    border-radius: 200px 0px 200px 200px;
+    -moz-border-radius: 200p 0px 200px 200px;
+    -webkit-border-radius: 200px 0px   200px 200px;
     border: 0px solid #000000;
     padding: 15px;
 }
@@ -316,7 +317,7 @@ main{
     margin-bottom: 5px;
 }
 .active_menu_link{
-    background: rgba(63, 161, 117, 0.3);
+    background: rgba(62, 161, 117, 0.3);
     color: #3ea175;
 }
 .active_menu_link a {
@@ -324,7 +325,7 @@ main{
 }
 .sidebar__link > a {
     text-decoration: none;
-    columns: #a5aaad;
+    color: #a5aaad;
     font-weight: 700;
 }
 .sidebar__link > i {

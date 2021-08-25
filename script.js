@@ -3,7 +3,7 @@ var options = {
     series: [
         {
             name : "Net profit",
-            data : [44, 55, 57, 61, 58,63,60, 66],
+            data : [44, 55, 57,56, 61, 58,63,60, 66],
         },
         {
             name : "Revenue",
@@ -49,9 +49,9 @@ var options = {
         opacity:1
     },
     tooltip:{
-        y:{
-            formatter: function(val){
-                return "$" + val + "thousands"
+        y: {
+            formatter: function (val) {
+                return "$" + val + "thousands";
             },
         },
     },
@@ -65,9 +65,9 @@ var options = {
 
   function toggleSidebar() {
       if (!sidebarOpen){
-          sidebar.classList.add(sidebar_responsive);
+          sidebar.classList.add("sidebar_responsive");
           sidebarOpen = true;
-      }
+      } 
   }
   function closeSide(){
       if(sidebarOpen){
